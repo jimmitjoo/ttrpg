@@ -1,5 +1,6 @@
 // Wait for device API libraries to load
 //
+/*
 document.addEventListener("deviceready", onDeviceReady, false);
 
 // device APIs are available
@@ -11,7 +12,7 @@ function onDeviceReady() {
 // onSuccess Geolocation
 //
 function onPositionSuccess(position) {
-    /*
+
     var element = document.getElementById('geolocation');
     element.innerHTML = 'Latitude: '           + position.coords.latitude              + '<br />' +
     'Longitude: '          + position.coords.longitude             + '<br />' +
@@ -21,7 +22,7 @@ function onPositionSuccess(position) {
     'Heading: '            + position.coords.heading               + '<br />' +
     'Speed: '              + position.coords.speed                 + '<br />' +
     'Timestamp: '          + position.timestamp                    + '<br />';
-    */
+
 
     var map = new GoogleMap();
     map.initialize(position.coords.latitude, position.coords.longitude);
@@ -41,7 +42,7 @@ function GoogleMap(){
     var geocoder;
 
     this.initialize = function(lat, lng){
-        //var map = showMap(lat, lng);
+        var map = showMap(lat, lng);
         geocoder = new google.maps.Geocoder();
         var latlng = new google.maps.LatLng(lat, lng);
         geocoder.geocode({'latLng': latlng}, function(results, status) {
@@ -55,6 +56,7 @@ function GoogleMap(){
                 }
             }
         });
+
     }
 
     var showMap = function(lat, lng){
@@ -69,3 +71,4 @@ function GoogleMap(){
         return map;
     }
 }
+    */
