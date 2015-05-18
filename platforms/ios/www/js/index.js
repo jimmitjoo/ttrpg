@@ -20,20 +20,22 @@ var app = {
     // Application Constructor
     initialize: function() {
         this.bindEvents();
+
     },
     // Bind Event Listeners
     //
     // Bind any events that are required on startup. Common events are:
     // 'load', 'deviceready', 'offline', and 'online'.
     bindEvents: function() {
-        document.addEventListener('deviceready', this.onDeviceReady, false);
+        //document.addEventListener('deviceready', this.onDeviceReady, false);
     },
     // deviceready Event Handler
     //
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
-        app.receivedEvent('deviceready');
+        //app.receivedEvent('deviceready');
+        navigator.geolocation.getCurrentPosition(app.currentGeoLocationSuccess, app.currentGeoLocationError);
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
@@ -42,8 +44,26 @@ var app = {
         var receivedElement = parentElement.querySelector('.received');
 
         listeningElement.setAttribute('style', 'display:none;');
-        receivedElement.setAttribute('style', 'display:block;');
+        receivedElement.setAttribute('style', 'display:none;');
 
         console.log('Received Event: ' + id);
+    },
+
+
+    currentGeoLocationSuccess: function(position) {
+        var element = document.getElementById('geolocation');
+        element.innerHTML = 'Latitude: '           + position.coords.latitude              + '<br />' +
+        'Longitude: '          + position.coords.longitude             + '<br />' +
+        'Altitude: '           + position.coords.altitude              + '<br />' +
+        'Accuracy: '           + position.coords.accuracy              + '<br />' +
+        'Altitude Accuracy: '  + position.coords.altitudeAccuracy      + '<br />' +
+        'Heading: '            + position.coords.heading               + '<br />' +
+        'Speed: '              + position.coords.speed                 + '<br />' +
+        'Timestamp: '          + position.timestamp                    + '<br />';
+    },
+
+    currentGeoLocationError: function(error) {
+        alert('code: '    + error.code    + '\n' +
+        'message: ' + error.message + '\n');
     }
 };
