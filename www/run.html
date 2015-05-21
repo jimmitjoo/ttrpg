@@ -1,0 +1,9 @@
+<h1>{{ race.name }}</h1>
+
+<ul>
+    <li><a href="#/Organizer/{{ race.organizer.id }}">{{ race.organizer.name }}</a></li>
+    <li>{{ race.external_link }}</li>
+    <li>{{ race.start_datetime }}</li>
+    <li>{{ race.town }}</li>
+    <li>{{ race.distance/1000 }} km</li>
+</ul>

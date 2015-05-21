@@ -11,6 +11,7 @@ function onDeviceReady() {
 // onSuccess Geolocation
 //
 function onPositionSuccess(position) {
+<<<<<<< HEAD
 
     /*
     var element = document.getElementById('geolocation');
@@ -36,6 +37,32 @@ function onPositionError(error) {
     'message: ' + error.message + '\n');
 }
 
+=======
+    /*
+    var element = document.getElementById('geolocation');
+    element.innerHTML = 'Latitude: '           + position.coords.latitude              + '<br />' +
+    'Longitude: '          + position.coords.longitude             + '<br />' +
+    'Altitude: '           + position.coords.altitude              + '<br />' +
+    'Accuracy: '           + position.coords.accuracy              + '<br />' +
+    'Altitude Accuracy: '  + position.coords.altitudeAccuracy      + '<br />' +
+    'Heading: '            + position.coords.heading               + '<br />' +
+    'Speed: '              + position.coords.speed                 + '<br />' +
+    'Timestamp: '          + position.timestamp                    + '<br />';
+    */
+
+    var map = new GoogleMap();
+    map.initialize(position.coords.latitude, position.coords.longitude);
+
+}
+
+// onError Callback receives a PositionError object
+//
+function onPositionError(error) {
+    alert('code: '    + error.code    + '\n' +
+    'message: ' + error.message + '\n');
+}
+
+>>>>>>> 081ebbfba33a3009079ca78e46193571182e03b3
 
 function GoogleMap(){
 
