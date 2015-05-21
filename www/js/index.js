@@ -11,6 +11,7 @@ function onDeviceReady() {
 // onSuccess Geolocation
 //
 function onPositionSuccess(position) {
+
     /*
     var element = document.getElementById('geolocation');
     element.innerHTML = 'Latitude: '           + position.coords.latitude              + '<br />' +
