@@ -1,25 +1,28 @@
-var app = angular.module('ttr', ['ngRoute']);
+var ang = angular.module('ttr', ['ngRoute']);
 var apiEndpoint = 'http://timetorun.se/api';
 
-app.config(function ($routeProvider, $locationProvider) {
+ang.config(function ($routeProvider, $locationProvider) {
     $routeProvider
         .when('/', {
             templateUrl: 'main.html',
-            controller: 'ListRunsController'
+            controller: 'ListRunsController',
+            controllerAs: 'list'
         })
         .when('/Run/:id', {
             templateUrl: 'run.html',
-            controller: 'RunController'
+            controller: 'RunController',
+            controllerAs: 'run'
         })
         .when('/Organizer/:id', {
             templateUrl: 'organizer.html',
-            controller: 'OrganizerController'
+            controller: 'OrganizerController',
+            controllerAs: 'organizer'
         });
 
 });
 
 
-app.controller('MainController', ["$scope", "$route", "$routeParams", "$location", function ($scope,  $route, $routeParams, $location) {
+ang.controller('MainController', ["$scope", "$route", "$routeParams", "$location", function ($scope,  $route, $routeParams, $location) {
 
     $scope.$route = $route;
     $scope.$location = $location;
@@ -28,7 +31,7 @@ app.controller('MainController', ["$scope", "$route", "$routeParams", "$location
 }]);
 
 
-app.controller('RunController', ["$scope", "$routeParams", "$http", function ($scope, $routeParams, $http) {
+ang.controller('RunController', ["$scope", "$routeParams", "$http", function ($scope, $routeParams, $http) {
 
     $scope.$routeParams = $routeParams;
 
@@ -39,7 +42,7 @@ app.controller('RunController', ["$scope", "$routeParams", "$http", function ($s
 }]);
 
 
-app.controller('OrganizerController', ["$scope", "$routeParams", "$http", function ($scope, $routeParams, $http) {
+ang.controller('OrganizerController', ["$scope", "$routeParams", "$http", function ($scope, $routeParams, $http) {
 
     $scope.$routeParams = $routeParams;
 
@@ -50,7 +53,7 @@ app.controller('OrganizerController', ["$scope", "$routeParams", "$http", functi
 }]);
 
 
-app.controller('ListRunsController', ["$scope", "$routeParams", "$http", function ($scope, $routeParams, $http) {
+ang.controller('ListRunsController', ["$scope", "$routeParams", "$http", function ($scope, $routeParams, $http) {
 
     $scope.$routeParams = $routeParams;
 

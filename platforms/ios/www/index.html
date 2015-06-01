@@ -1,30 +1,21 @@
 <!doctype html>
 <html lang="sv" ng-app="ttr">
 <head>
-
+    <base href="/">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
 
     <title>Älska att springa - Timetorun.se</title>
-    <meta name="description" content="Hitta lopp och tävlingar att springa i Sverige och utomlands. Löparskor, träningskläder och kompressionskläder till bra pris online.">
+    <meta name="description"
+          content="Hitta lopp och tävlingar att springa i Sverige och utomlands. Löparskor, träningskläder och kompressionskläder till bra pris online.">
 
-    <link rel="canonical" href="http://timetorun.se" />
+    <link rel="canonical" href="http://timetorun.se"/>
 
-    <meta property="og:site_name" content="Timetorun.se"/>
-    <meta property="og:title" content="Älska att springa - Timetorun.se" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="http://timetorun.se" />
-    <meta property="og:description" content="Hitta lopp och tävlingar att springa i Sverige och utomlands. Löparskor, träningskläder och kompressionskläder till bra pris online." />
-    <meta property="fb:app_id" content="1432852267028834" />
-    <meta property="og:locale" content="sv_SE" />
-    <meta property="og:image" content="http://timetorun.se/images/unsplash-green.jpg" />
-
-    <link rel="icon" type="image/png" href="http://timetorun.se/images/favicon.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/favicon-114x114.png" />
+    <link rel="icon" type="image/png" href="http://timetorun.se/images/favicon.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/favicon-114x114.png"/>
 
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Raleway:400,300,500,700,900">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,900,700,500,300,100">
-    <link rel="stylesheet" href="http://timetorun.se/css/build.css" >
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -36,206 +27,22 @@
 </head>
 <body>
 
-
-
-
-
-<header>
-
-    <div class="topnav">
-        <div class="max-width container-fluid" style="background: rgba(255,255,255,.97);">
-            <div class="row">
-                <div class="col-lg-6 col-md-6" style="height: 62px;">
-                    <div class="table">
-                        <div class="table-cell">
-                            <a href="/"><img class="logo" src="http://timetorun.se/images/timetorun.png"></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-xs-6 text-right" style="height: 62px;">
-                    <a class="login auth" href="http://timetorun.se/login/facebook">
-                        <div class="table">
-                            <div class="table-cell">
-                                <i class="fa fa-user"></i> &nbsp;Logga in
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
+<div class="app">
+    <h1>PhoneGap</h1>
+    <div id="deviceready" class="blink">
+        <p class="event listening">Connecting to Device</p>
+        <p class="event received">Device is Ready</p>
     </div>
-
-    <div class="max-width container-fluid" style="background: white;">
-        <div class="row">
-            <div class="col-lg-6 col-md-6 col-xs-6" style="height: 82px;">
-                <div class="table">
-                    <div class="table-cell">
-                        <a href="/"><img class="logo" src="http://timetorun.se/images/timetorun.png"></a>
-                        <!--
-                        <a class="link-topnav" href="#"></a>
-                        -->
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-6 col-md-6 col-xs-6 text-right" style="height: 82px;">
-
-                <!--
-                <form>
-                    <input type="text" class="search-topnav" placeholder="sök">
-                </form>
-                -->
-
-                <a class="login auth" href="http://timetorun.se/login/facebook">
-                    <div class="table">
-                        <div class="table-cell">
-                            <i class="fa fa-user"></i> &nbsp;Logga in
-                        </div>
-                    </div>
-                </a>
-
-            </div>
-
-        </div>
-    </div>
-</header>
-
-
-<div class="max-width block block-border-bottom bg-white">
-
-    <div class="row">
-
-        <div id="geolocation" style="width: 100%;float:left;height:250px;"></div>
-
-        <div class="col-lg-12 text-center" style="padding-bottom: 50px;">
-            <h2 class="text-title big">Sök lopp och tävlingar</h2>
-
-            <p style="font-weight: 500;">-i närheten eller på annan plats i Sverige och världen.</p>
-        </div>
-    </div>
-
-    <div data-ng-controller="runPaginationController">
-
-        <form>
-            <div class="search-box">
-                <div class="search-icon">
-                    <i class="fa fa-search"></i>
-                </div>
-                <div class="search-clear">
-                    <i class="fa fa-times"></i>
-                </div>
-                <input class="search-field" type="text" ng-model="searchQuery" placeholder="Sök">
-            </div>
-        </form>
-
-        <div class="row">
-
-            <div class="col-lg-2 col-md-2 col-xs-2 hide-mobile"><h3>Plats</h3></div>
-            <div class="col-lg-2 col-md-2 col-xs-2 hide-mobile"><h3>Datum</h3></div>
-            <div class="col-lg-4 col-md-4 col-xs-7"><h3>Lopp</h3></div>
-            <div class="col-lg-2 col-md-2 col-xs-3 hide-mobile"><h3>Distans</h3></div>
-            <div class="col-lg-2 col-md-2 col-xs-5 text-right"><h3></h3></div>
-
-        </div>
-
-        <div ng-repeat="race in races" class="row list-item">
-            <a href="{{ race.slug }}">
-                <div class="col-lg-2 col-md-2 col-xs-2 hide-mobile">{{ race.town }}</div>
-                <div class="col-lg-2 col-md-2 col-xs-2 hide-mobile">{{ race.start_datetime }}</div>
-                <div class="col-lg-4 col-md-4 col-xs-9">{{ race.name }}</div>
-                <div class="col-lg-2 col-md-2 col-xs-3 hide-mobile">{{ race.distance / 1000 }} km</div>
-                <div class="col-lg-2 col-md-2 col-xs-3 text-right">
-                    <a class="list-btn" href="{{ race.slug }}">
-                        <div class="table">
-                            <div class="table-cell text-center">
-                                <i class="fa fa-long-arrow-right"></i>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </a>
-        </div>
-
-        <div class="text-center">
-            <button class="show-more click click-blue" ng-click="showMore()">Visa fler</button>
-        </div>
-        <div id="paginateSpinner"><i class="fa fa-spinner fa-spin"></i></div>
-
-    </div>
+    <div id="geolocation_calls">0</div>
+    <div id="geolocation"></div>
 </div>
-
-<div class="max-width container-fluid block bg-white" style="padding-top: 80px; padding-bottom: 60px;">
-    <div class="row">
-
-        <a href="http://track.adtraction.com/t/t?a=435656443&as=1087597488&t=2&tk=1&url=http://www.outnorth.se/2xu/men-s-elite-compression-tight" target="_blank" style="display: block;">
-            <div class="col-lg-6 col-md-6 col-xs-12">
-                <img src="http://timetorun.se/images/products/outnorth-2xu-compression-tights.jpg" style="width: 100%; outline: 0;"/>
-            </div>
-
-            <div class="col-lg-6 col-md-6 col-xs-12">
-                <div class="table" style="max-height: 556px;">
-                    <div class="table-cell">
-                        <h2 class="large" style="color: black; margin-bottom: 20px;">Orka längre med 2XU kompressionskläder</h2>
-                        <p style="color: black; margin-bottom: 30px;">2XU Men's Elite Compression Tights är förmodligen de skönaste löpartightsen du någonsin kommer äga. Stabiliserar de största muskelgrupperna och ger stöd under löpturen.</p>
-                        <div class="clear"><span class="product-label single">2XU Men Compression Tight</span></div>
-                        <div class="clear"><span class="product-pricetag single">745;- Spara 50%!</span></div>
-                        <div class="clear"><span class="product-pricetag-shop click click-shop">Handla här</span></div>
-                    </div>
-                </div>
-            </div>
-        </a>
-
-    </div>
-</div>
-
-<footer>
-    <div class="max-width container-fluid block footer bg-purple">
-        <div class="row">
-            <div class="col-lg-12">
-                <strong>Timetorun.se</strong> – Älska att springa
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-6 col-md-6 small">
-                <ul>
-                    <li><a href="/">Start</a></li>
-                    <li><a href="/omoss">Om oss</a></li>
-                </ul>
-            </div>
-            <div class="col-lg-6 col-md-6 text-right">
-                <a class="btn-facebook" target="_blank" style="margin-top: 0;" href="https://www.facebook.com/pages/Timetorun/700137680097229">Följ oss på Facebook</a>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-12 small">
-            	<span class="small">© 2015 Timetorun.se &nbsp;&nbsp; Beta
-                </span>
-            </div>
-        </div>
-    </div>
-</footer>
 
 <script type="text/javascript" src="cordova.js"></script>
 <script type="text/javascript" src="js/index.js"></script>
 
-<script src="js/build.js"></script>
-<script src="js/angular/angular.js"></script>
-<script src="js/angular/ui-bootstrap-0.11.1.js"></script>
-<script src="js/angular/application.js"></script>
-
-<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
-<link href="http://code.google.com/apis/maps/documentation/javascript/examples/default.css" rel="stylesheet" type="text/css" />
 
 <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-62112620-1', 'auto');
-    ga('send', 'pageview');
-
-</script></body>
+    app.initialize();
+</script>
+</body>
 </html>

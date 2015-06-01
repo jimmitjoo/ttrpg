@@ -1,7 +1,58 @@
-var app = angular.module('ttr',  ['ui.bootstrap']);
+var app = angular.module('ttr', ['ngRoute']);
+var apiEndpoint = 'http://timetorun.se/api';
+
+app.config(function ($routeProvider, $locationProvider) {
+    $routeProvider
+        .when('/', {
+            templateUrl: 'main.html',
+            controller: 'ListRunsController'
+        })
+        .when('/Run/:id', {
+            templateUrl: 'run.html',
+            controller: 'RunController'
+        })
+        .when('/Organizer/:id', {
+            templateUrl: 'organizer.html',
+            controller: 'OrganizerController'
+        });
+
+});
 
 
-app.controller('runPaginationController', ["$scope", "$http", function ($scope, $http) {
+app.controller('MainController', ["$scope", "$route", "$routeParams", "$location", function ($scope,  $route, $routeParams, $location) {
+
+    $scope.$route = $route;
+    $scope.$location = $location;
+    $scope.$routeParams = $routeParams;
+
+}]);
+
+
+app.controller('RunController', ["$scope", "$routeParams", "$http", function ($scope, $routeParams, $http) {
+
+    $scope.$routeParams = $routeParams;
+
+    $http.jsonp(apiEndpoint + '/race/' + $scope.$routeParams.id + '?callback=JSON_CALLBACK', {cache: false})
+        .success(function (response) {
+            $scope.race = response;
+        });
+}]);
+
+
+app.controller('OrganizerController', ["$scope", "$routeParams", "$http", function ($scope, $routeParams, $http) {
+
+    $scope.$routeParams = $routeParams;
+
+    $http.jsonp(apiEndpoint + '/organizer/' + $scope.$routeParams.id + '?callback=JSON_CALLBACK', {cache: false})
+        .success(function (response) {
+            $scope.organizer = response;
+        });
+}]);
+
+
+app.controller('ListRunsController', ["$scope", "$routeParams", "$http", function ($scope, $routeParams, $http) {
+
+    $scope.$routeParams = $routeParams;
 
     $scope.page = 1;
     $scope.last = null;
@@ -9,19 +60,12 @@ app.controller('runPaginationController', ["$scope", "$http", function ($scope, 
     $scope.races = [];
 
 
-    var apiEndpoint = 'http://timetorun.se/race/page';
-
-
-    $scope.loadData = function() {
+    $scope.loadData = function () {
 
         $('#paginateSpinner').show();
 
-        if ($('#runTown').length > 0) {
-            $scope.searchQuery = $('#runTown').val();
-        }
-
-        $http.jsonp(apiEndpoint + '/' + $scope.searchQuery + '?page=' + $scope.page + '&callback=JSON_CALLBACK', { cache: false})
-            .success(function(response){
+        $http.jsonp(apiEndpoint + '/race/page/' + $scope.searchQuery + '?page=' + $scope.page + '&callback=JSON_CALLBACK', {cache: false})
+            .success(function (response) {
                 $scope.last = response.last_page;
                 if ($scope.page == $scope.last) {
                     $('.show-more').hide();
@@ -31,27 +75,27 @@ app.controller('runPaginationController', ["$scope", "$http", function ($scope, 
 
                 $scope.races = $scope.races.concat(response.data);
                 $('#paginateSpinner').hide();
-            }).error(function(data){
+            }).error(function (data) {
                 console.log(data);
             });
 
     };
 
-    $('.search-field').on('keyup', function(){
-        delay(function(){
+    $('.search-field').on('keyup', function () {
+        delay(function () {
             $scope.races = [];
             $scope.loadData();
-        }, 250 );
+        }, 250);
     });
 
-    $('.search-clear').on('click', function(){
+    $('.search-clear').on('click', function () {
         $('.search-field').val('');
         $scope.searchQuery = '';
         $scope.races = [];
         $scope.loadData();
     });
 
-    $scope.showMore = function() {
+    $scope.showMore = function () {
         $scope.page += 1;
         $scope.loadData();
     };
@@ -65,10 +109,10 @@ app.controller('runPaginationController', ["$scope", "$http", function ($scope, 
 /*
  * Denna funktion bör ligga någon annanstans
  */
-var delay = (function(){
+var delay = (function () {
     var timer = 0;
-    return function(callback, ms){
-        clearTimeout (timer);
+    return function (callback, ms) {
+        clearTimeout(timer);
         timer = setTimeout(callback, ms);
     };
 })();
