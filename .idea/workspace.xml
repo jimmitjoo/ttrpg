@@ -2,15 +2,96 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a51c5ab2-e520-4e3e-af41-4db5053b0f16" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/www/js/build.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/www/js/build.js.map" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/js/angular/application.js" afterPath="$PROJECT_DIR$/platforms/ios/www/js/angular/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/angular/application.js" afterPath="$PROJECT_DIR$/www/js/angular/application.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/img/ionFB.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/img/ionic.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/fonts/ionicons.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/fonts/ionicons.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/fonts/ionicons.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/angular/angular-animate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/angular/angular-animate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/angular/angular-resource.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/angular/angular-resource.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/angular/angular-sanitize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/angular/angular-sanitize.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/angular-ui/angular-ui-router.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/angular-ui/angular-ui-router.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/angular_old/angular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/angular/angular.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/facebook/facebookConnectPlugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/templates/feed.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/ionic-angular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/ionic-angular.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/ionic.app.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/ionic.bundle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/ionic.bundle.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/css/ionic.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/ionic.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/js/ionic.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/fonts/ionicons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/templates/likes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/templates/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/templates/menu.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/templates/photos.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/templates/profile.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/templates/share.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/Hello World.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/Hello World/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/Hello World/Classes/AppDelegate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/Hello World/Classes/AppDelegate.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/Hello World/Classes/MainViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/Hello World/Classes/MainViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/Hello World/Classes/MainViewController.xib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/Hello World/Hello World-Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/Hello World/Hello World-Prefix.pch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/Hello World/Plugins/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/Hello World/Plugins/org.apache.cordova.geolocation/CDVLocation.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/Hello World/Plugins/org.apache.cordova.geolocation/CDVLocation.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/Hello World/Resources/icons/icon-40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/Hello World/Resources/icons/icon-40@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/Hello World/Resources/icons/icon-50.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/Hello World/Resources/icons/icon-50@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/Hello World/Resources/icons/icon-60.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/Hello World/Resources/icons/icon-60@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/Hello World/Resources/icons/icon-60@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/Hello World/Resources/icons/icon-72.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/Hello World/Resources/icons/icon-72@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/Hello World/Resources/icons/icon-76.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/Hello World/Resources/icons/icon-76@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/Hello World/Resources/icons/icon-small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/Hello World/Resources/icons/icon-small@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/Hello World/Resources/icons/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/Hello World/Resources/icons/icon@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/Hello World/Resources/splash/Default-568h@2x~iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/Hello World/Resources/splash/Default-667h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/Hello World/Resources/splash/Default-736h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/Hello World/Resources/splash/Default-Landscape-736h.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/Hello World/Resources/splash/Default-Landscape@2x~ipad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/Hello World/Resources/splash/Default-Landscape~ipad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/Hello World/Resources/splash/Default-Portrait@2x~ipad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/Hello World/Resources/splash/Default-Portrait~ipad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/Hello World/Resources/splash/Default@2x~iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/Hello World/Resources/splash/Default~iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/Hello World/config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/Hello World/main.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/www/js/angular/application.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/www/js/angular/ui-bootstrap-0.11.1.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/js/angular/application.js" afterPath="$PROJECT_DIR$/www/js/application.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/js/angular/ui-bootstrap-0.11.1.js" afterPath="$PROJECT_DIR$/www/js/angular_old/ui-bootstrap-0.11.1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/js/angular/angular.js" afterPath="$PROJECT_DIR$/platforms/ios/www/js/angular/angular.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/angular/angular.js" afterPath="$PROJECT_DIR$/www/js/angular/angular.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/cordova_plugins.js" afterPath="$PROJECT_DIR$/platforms/ios/www/cordova_plugins.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/fetch.json" afterPath="$PROJECT_DIR$/plugins/fetch.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/index.html" afterPath="$PROJECT_DIR$/platforms/ios/www/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/js/index.js" afterPath="$PROJECT_DIR$/platforms/ios/www/js/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/index.js" afterPath="$PROJECT_DIR$/www/js/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/ios.json" afterPath="$PROJECT_DIR$/plugins/ios.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/main.html" afterPath="$PROJECT_DIR$/platforms/ios/www/main.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/main.html" afterPath="$PROJECT_DIR$/www/main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/run.html" afterPath="$PROJECT_DIR$/platforms/ios/www/run.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/run.html" afterPath="$PROJECT_DIR$/www/run.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ttrpg.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,11 +116,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="organizer.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/www/organizer.html">
+      <file leaf-file-name="menu.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/templates/menu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1351">
-              <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.019245004" vertical-offset="74" max-vertical-offset="1425">
+              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -54,12 +135,18 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/platforms/ios/www/index.html" />
-        <option value="$PROJECT_DIR$/www/js/index.js" />
         <option value="$PROJECT_DIR$/www/js/angular/application.js" />
-        <option value="$PROJECT_DIR$/www/run.html" />
-        <option value="$PROJECT_DIR$/www/index.html" />
-        <option value="$PROJECT_DIR$/www/main.html" />
         <option value="$PROJECT_DIR$/www/organizer.html" />
+        <option value="$PROJECT_DIR$/www/css/index.css" />
+        <option value="$PROJECT_DIR$/www/js/index.js" />
+        <option value="$PROJECT_DIR$/www/run.html" />
+        <option value="$PROJECT_DIR$/www/main.html" />
+        <option value="$PROJECT_DIR$/www/index.html" />
+        <option value="$PROJECT_DIR$/platforms/ios/Hello World/config.xml" />
+        <option value="$PROJECT_DIR$/config.xml" />
+        <option value="$PROJECT_DIR$/platforms/ios/TimeToRun/config.xml" />
+        <option value="$PROJECT_DIR$/www/js/application.js" />
+        <option value="$PROJECT_DIR$/www/templates/menu.html" />
       </list>
     </option>
   </component>
@@ -69,7 +156,7 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="2560" />
+    <option name="width" value="1689" />
     <option name="height" value="1373" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -79,7 +166,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -141,7 +228,91 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ttrpg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ttrpg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ttrpg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ttrpg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="facebook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ttrpg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ttrpg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular_old" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ttrpg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ttrpg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular-ui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -181,7 +352,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ttrpg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ttrpg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="fonts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ttrpg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ttrpg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -249,6 +456,180 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ttrpg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ttrpg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="platforms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ios" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TimeToRun.xcodeproj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ttrpg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ttrpg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="platforms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ios" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TimeToRun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ttrpg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ttrpg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="platforms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ios" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cordova" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ttrpg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ttrpg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="platforms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ios" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TimeToRun.build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Debug-iphonesimulator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TimeToRun.build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ttrpg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ttrpg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="platforms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ios" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharedpch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ttrpg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ttrpg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="platforms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ios" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ttrpg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ttrpg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="platforms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ios" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="emulator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -262,13 +643,19 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../test" />
     <property name="FullScreen" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/jimmitjoo/appcode/ttrpg/www/main.html" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/jimmitjoo/appcode/ttrpg/www/templates/menu.html" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/www/img" />
+      <recent name="$PROJECT_DIR$/www/css" />
       <recent name="$PROJECT_DIR$/www" />
+      <recent name="$PROJECT_DIR$/www/js/facebook" />
       <recent name="$PROJECT_DIR$/www/js" />
-      <recent name="$PROJECT_DIR$/www/js/angular" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/www/js" />
+      <recent name="$PROJECT_DIR$/www" />
     </key>
   </component>
   <component name="RunManager">
@@ -286,9 +673,6 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -296,6 +680,9 @@
       <arguments />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -314,7 +701,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="2560" height="1373" extended-state="0" />
+    <frame x="0" y="23" width="1689" height="1373" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -323,7 +710,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23682652" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -359,24 +746,25 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="1450">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding>
+            <marker date="1433416668000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433416668000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433416668000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433416668000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433416668000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1925">
           <caret line="13" column="35" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="35" />
-          <folding>
-            <marker date="1433168259000" expanded="false" signature="-1:-1" placeholder="//..." />
-            <marker date="1433168259000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433168259000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433168259000" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1433168259000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433168259000" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1433168259000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433168259000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433168259000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433168259000" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1433168259000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433168259000" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -385,15 +773,11 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="424" max-vertical-offset="1800">
           <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
           <folding>
-            <marker date="1433169499000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433169499000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433169499000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433169499000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433169499000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433169499000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1433169499000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433169499000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433169499000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433416668000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433416668000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433416668000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433416668000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433416668000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -403,15 +787,11 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="424" max-vertical-offset="1800">
           <caret line="58" column="39" selection-start-line="58" selection-start-column="39" selection-end-line="58" selection-end-column="39" />
           <folding>
-            <marker date="1433169499000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433169499000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433169499000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433169499000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433169499000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433169499000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1433169499000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433169499000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433169499000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433416668000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433416668000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433416668000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433416668000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433416668000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -423,25 +803,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/angular/angular.js">
+    <entry file="file://$PROJECT_DIR$/www/js/angular_old/angular.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="657850">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/angular/ui-bootstrap-0.11.1.js">
+    <entry file="file://$PROJECT_DIR$/www/js/angular_old/ui-bootstrap-0.11.1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="104100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.4811251" vertical-offset="650" max-vertical-offset="2275">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -555,61 +927,11 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/ios/www/js/angular/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3100">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1433165593000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433165593000" expanded="true" signature="-1:-1" placeholder="{&quot;templateUrl&quot;: 'main.html'...}" />
-            <marker date="1433165593000" expanded="true" signature="-1:-1" placeholder="{&quot;templateUrl&quot;: 'run.html'...}" />
-            <marker date="1433165593000" expanded="true" signature="-1:-1" placeholder="{&quot;templateUrl&quot;: 'organizer.html'...}" />
-            <marker date="1433165593000" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1433165593000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433165593000" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1433165593000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433165593000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433165593000" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1433165593000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433165593000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433165593000" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1433165593000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433165593000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433165593000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433165593000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433165593000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433165593000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433165593000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433165593000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433165593000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433165593000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433165593000" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1433165593000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433165593000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/platforms/ios/www/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3700">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1433165593000" expanded="false" signature="-1:-1" placeholder="//..." />
-            <marker date="1433165593000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433165593000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433165593000" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1433165593000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433165593000" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1433165593000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433165593000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433165593000" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1433165593000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433165593000" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1433165593000" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1433165593000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433165593000" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -617,124 +939,333 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.77720207" vertical-offset="0" max-vertical-offset="1351">
           <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding>
-            <marker date="1433165593000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433165593000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433165593000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433165593000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433165593000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433165593000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433165593000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433165593000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/index.js">
+    <entry file="file://$PROJECT_DIR$/www/css/ionic.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.037009623" vertical-offset="0" max-vertical-offset="3400">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="7" />
-          <folding>
-            <marker date="1433168259000" expanded="false" signature="-1:-1" placeholder="//..." />
-            <marker date="1433168259000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433168259000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433168259000" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1433168259000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433168259000" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1433168259000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433168259000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433168259000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433168259000" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1433168259000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433168259000" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="191950">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/angular/application.js">
+    <entry file="file://$PROJECT_DIR$/www/js/angular/angular.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.55440414" vertical-offset="1399" max-vertical-offset="3175">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <marker date="1433169084000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433169084000" expanded="true" signature="-1:-1" placeholder="{&quot;templateUrl&quot;: 'main.html'...}" />
-            <marker date="1433169084000" expanded="true" signature="-1:-1" placeholder="{&quot;templateUrl&quot;: 'run.html'...}" />
-            <marker date="1433169084000" expanded="true" signature="-1:-1" placeholder="{&quot;templateUrl&quot;: 'organizer.html'...}" />
-            <marker date="1433169084000" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1433169084000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433169084000" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1433169084000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433169084000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433169084000" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1433169084000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433169084000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433169084000" expanded="true" signature="-1:-1" placeholder="[...]" />
-            <marker date="1433169084000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433169084000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433169084000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433169084000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433169084000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433169084000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433169084000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433169084000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433169084000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433169084000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433169084000" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1433169084000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1433169084000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="653400">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37009624" vertical-offset="0" max-vertical-offset="3025">
+          <caret line="20" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/ionic.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1351">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/ionic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="216950">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/ionic-angular.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.055514432" vertical-offset="650" max-vertical-offset="333275">
+          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/run.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.055514432" vertical-offset="0" max-vertical-offset="1351">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-          <folding>
-            <marker date="1433169471000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4626203" vertical-offset="0" max-vertical-offset="1351">
-          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
-          <folding>
-            <marker date="1433169499000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433169499000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433169499000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433169499000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433169499000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433169499000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1433169499000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433169499000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433169499000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29607698" vertical-offset="0" max-vertical-offset="1351">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-          <folding>
-            <marker date="1433169532000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433169532000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433169532000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433169532000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433169532000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433169532000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433169532000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1433169532000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1351">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/organizer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1351">
-          <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+          <caret line="0" column="29" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.055514432" vertical-offset="325" max-vertical-offset="3450">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.59215397" vertical-offset="0" max-vertical-offset="1351">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/facebook/facebookConnectPlugin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4450">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/ionic.app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="176775">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.7394522" vertical-offset="0" max-vertical-offset="2550">
+          <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+          <folding>
+            <marker date="1433423123000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433423123000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433423123000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433423123000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433423123000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/ios/TimeToRun/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.79570687" vertical-offset="0" max-vertical-offset="2775">
+          <caret line="43" column="52" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
+          <folding>
+            <marker date="1433424453000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433424453000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433424453000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433424453000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433424453000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433424453000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5551443" vertical-offset="75" max-vertical-offset="1450">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+          <folding>
+            <marker date="1433416668000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433416668000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433416668000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433416668000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433416668000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/feed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42561066" vertical-offset="0" max-vertical-offset="1351">
+          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+          <folding>
+            <marker date="1422037453000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422037453000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422037453000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422037453000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422037453000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422037453000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422037453000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422037453000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422037453000" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1351">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1422042958000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422042958000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422042958000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422042958000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1422042958000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="2935" max-vertical-offset="20450">
+          <caret line="135" column="24" selection-start-line="135" selection-start-column="16" selection-end-line="135" selection-end-column="24" />
+          <folding>
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="//..." />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: &quot;/app&quot;...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: &quot;/&quot;...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{&quot;authenticate&quot;: false...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: &quot;/profile&quot;...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{&quot;templateUrl&quot;: &quot;templates/profile.html&quot;...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{&quot;authenticate&quot;: true...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: &quot;/likes&quot;...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{&quot;templateUrl&quot;: &quot;templates/likes.html&quot;...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{&quot;authenticate&quot;: true...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: &quot;/photos&quot;...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{&quot;templateUrl&quot;: &quot;templates/photos.html&quot;...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{&quot;authenticate&quot;: true...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: &quot;/feed&quot;...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{&quot;templateUrl&quot;: &quot;templates/feed.html&quot;...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{&quot;authenticate&quot;: true...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: &quot;/share&quot;...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{&quot;templateUrl&quot;: &quot;templates/share.html&quot;...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{&quot;authenticate&quot;: true...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: &quot;/list&quot;...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{&quot;templateUrl&quot;: &quot;main.html&quot;...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{&quot;authenticate&quot;: true...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="/*...*/" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="/*...*/" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{&quot;title&quot;: 'Log out'...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{&quot;template&quot;: 'Loging out...'...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="//..." />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="//..." />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{&quot;template&quot;: 'Logging in...'...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="//..." />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="//..." />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{&quot;template&quot;: 'Loading likes...'...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{&quot;template&quot;: 'Loading photos...'...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{&quot;template&quot;: 'Loading feed...'...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{&quot;method&quot;: &quot;feed&quot;...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{&quot;method&quot;: 'send'...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: 'Test Post'...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{&quot;method&quot;: &quot;share&quot;...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="/*...*/" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1433424282000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.019245004" vertical-offset="74" max-vertical-offset="1425">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
           <folding />
         </state>
       </provider>

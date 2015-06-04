@@ -5,9 +5,6 @@ var app = {
 
     // Application Constructor
     initialize: function() {
-
-        alert('hej');
-
         this.bindEvents();
     },
 
@@ -26,39 +23,31 @@ var app = {
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
 
-        navigator.geolocation.getCurrentPosition(onSuccess, onError);
+        //navigator.geolocation.getCurrentPosition(onSuccess, onError);
 
     },
 
     // Update DOM on a Received Event
     receivedEvent: function(id) {
-        /*var parentElement = document.getElementById(id);
+        /*
+        var parentElement = document.getElementById(id);
         var listeningElement = parentElement.querySelector('.listening');
         var receivedElement = parentElement.querySelector('.received');
 
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
-
-        console.log('Received Event: ' + id);
         */
 
-        alert('yo');
-
-    },
-
-    positionWatchId: {}
+        console.log('Received Event: ' + id);
+    }
 
 };
 
-var tc = 0;
 function onSuccess(position) {
-    /*var calls = document.getElementById('geolocation_calls');
-    calls.innerHTML = tc++;
     var element = document.getElementById('geolocation');
     element.innerHTML = 'Latitude: '  + position.coords.latitude      + '<br />' +
-    'Longitude: ' + position.coords.longitude     + '<br />' +
-    '<hr />';
-    */
+    'Longitude: ' + position.coords.longitude     + '<br />';
+
 }
 
 // onError Callback receives a PositionError object
@@ -67,6 +56,7 @@ function onError(error) {
     alert('code: '    + error.code    + '\n' +
     'message: ' + error.message + '\n');
 }
+
 
 /*
 

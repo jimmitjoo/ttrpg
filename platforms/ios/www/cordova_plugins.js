@@ -27,13 +27,21 @@ module.exports = [
         "clobbers": [
             "navigator.geolocation"
         ]
+    },
+    {
+        "file": "plugins/com.phonegap.plugins.facebookconnect/facebookConnectPlugin.js",
+        "id": "com.phonegap.plugins.facebookconnect.FacebookConnectPlugin",
+        "clobbers": [
+            "facebookConnectPlugin"
+        ]
     }
 ];
 module.exports.metadata = 
 // TOP OF METADATA
 {
     "cordova-plugin-whitelist": "1.0.0",
-    "org.apache.cordova.geolocation": "0.3.12"
+    "org.apache.cordova.geolocation": "0.3.12",
+    "com.phonegap.plugins.facebookconnect": "0.11.0"
 }
 // BOTTOM OF METADATA
 });
