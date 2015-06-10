@@ -68,6 +68,11 @@
     <string></string>
     <key>NSMainNibFile~ipad</key>
     <string></string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+      <string>UIInterfaceOrientationPortraitUpsideDown</string>
+    </array>
     <key>UISupportedInterfaceOrientations~ipad</key>
     <array>
       <string>UIInterfaceOrientationPortrait</string>
@@ -180,15 +185,6 @@
     </array>
     <key>NSLocationWhenInUseUsageDescription</key>
     <string></string>
-    <key>UIInterfaceOrientation</key>
-    <array>
-      <string>UIInterfaceOrientationPortrait</string>
-    </array>
-    <key>UISupportedInterfaceOrientations</key>
-    <array>
-      <string>UIInterfaceOrientationPortrait</string>
-      <string>UIInterfaceOrientationPortraitUpsideDown</string>
-    </array>
     <key>FacebookAppID</key>
     <string>1432852267028834</string>
     <key>FacebookDisplayName</key>
@@ -201,6 +197,10 @@
           <string>fb1432852267028834</string>
         </array>
       </dict>
+    </array>
+    <key>UIInterfaceOrientation</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
     </array>
   </dict>
 </plist>
