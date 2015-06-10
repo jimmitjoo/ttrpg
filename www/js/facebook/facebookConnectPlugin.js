@@ -70,6 +70,9 @@ if (!window.cordova) {
         },
         // Attach this to a UI element, this requires user interaction.
         login: function (permissions, s, f) {
+
+            alert('yo');
+            return;
             // JS SDK takes an object here but the native SDKs use array.
             var permissionObj = {};
             if (permissions && permissions.length > 0) {
