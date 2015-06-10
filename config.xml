@@ -1,22 +1,25 @@
-<?xml version='1.0' encoding='utf-8' ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <widget
-        id="com.phonegap.timetorun"
-        versionCode = "1"
-        version="1.0.0"
+        xmlns:gap="http://phonegap.com/ns/1.0"
         xmlns="http://www.w3.org/ns/widgets"
-        xmlns:gap="http://phonegap.com/ns/1.0" >
+        id="com.phonegap.timetorun"
+        version="1.0.0" >
 
 
-    <name>Timetorun</name>
+    <name>TimeToRun</name>
+
     <description>
         TTR sample application that responds to the deviceready event.
     </description>
+
     <author email="jimmitjoo@gmail.com" href="http://jimmitjoo.se">
         Jimmie Johansson
     </author>
-    <content src="index.html" />
+
     <preference name="permissions" value="none" />
-    <preference name="orientation" value="portrait" />
+
+
+    <preference name="orientation" value="default" />
     <preference name="target-device" value="universal" />
     <preference name="fullscreen" value="true" />
     <preference name="webviewbounce" value="true" />
@@ -31,7 +34,11 @@
     <preference name="android-minSdkVersion" value="7" />
     <preference name="android-installLocation" value="auto" />
 
+    <!-- Define a specific version of PhoneGap to build into your app. -->
+    <preference name="phonegap-version"       value="3.7.0" />
 
+
+    <!-- Core plugins -->
     <gap:plugin name="org.apache.cordova.battery-status" />
     <gap:plugin name="org.apache.cordova.camera" />
     <gap:plugin name="org.apache.cordova.media-capture" />
@@ -51,13 +58,15 @@
     <gap:plugin name="org.apache.cordova.splashscreen" />
     <gap:plugin name="org.apache.cordova.vibration" />
 
-
+    <!-- Third party plugins -->
+    <!-- A list of available plugins are available at https://build.phonegap.com/plugins -->
     <gap:plugin name="com.phonegap.plugins.facebookconnect" version="0.9.0">
         <param name="APP_ID" value="1432852267028834" />
         <param name="APP_NAME" value="Timetorun" />
     </gap:plugin>
 
 
+    <!-- Define app icon for each platform. -->
     <icon src="icon.png" />
     <icon gap:platform="android" gap:qualifier="ldpi" src="www/res/icon/android/icon-36-ldpi.png" />
     <icon gap:platform="android" gap:qualifier="mdpi" src="www/res/icon/android/icon-48-mdpi.png" />
@@ -72,6 +81,8 @@
     <icon gap:platform="webos" src="www/res/icon/webos/icon-64.png" />
     <icon gap:platform="winphone" src="www/res/icon/windows-phone/icon-48.png" />
     <icon gap:platform="winphone" gap:role="background" src="www/res/icon/windows-phone/icon-173-tile.png" />
+
+    <!-- Define app splash screen for each platform. -->
     <gap:splash gap:platform="android" gap:qualifier="port-ldpi" src="www/res/screen/android/screen-ldpi-portrait.png" />
     <gap:splash gap:platform="android" gap:qualifier="port-mdpi" src="www/res/screen/android/screen-mdpi-portrait.png" />
     <gap:splash gap:platform="android" gap:qualifier="port-hdpi" src="www/res/screen/android/screen-hdpi-portrait.png" />
@@ -83,7 +94,17 @@
     <gap:splash gap:platform="ios" height="1024" src="www/res/screen/ios/screen-ipad-portrait.png" width="768" />
     <gap:splash gap:platform="ios" height="768" src="www/res/screen/ios/screen-ipad-landscape.png" width="1024" />
     <gap:splash gap:platform="winphone" src="www/res/screen/windows-phone/screen-portrait.jpg" />
-    <access origin="*" />
+
+    <gap:config-file platform="ios" parent="CFBundleShortVersionString">
+        <string>100</string>
+    </gap:config-file>
+
+    <!-- Define access to external domains. -->
+    <access origin="*"/>
+
+
+    <!-- Added the following intents to support the removal of whitelist code from base cordova to a plugin -->
+    <!-- Whitelist configuration. Refer to https://cordova.apache.org/docs/en/edge/guide_appdev_whitelist_index.md.html -->
     <plugin name="cordova-plugin-whitelist" version="1" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
@@ -98,6 +119,5 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
-    <engine name="ios" spec="^3.8.0" />
 
 </widget>
