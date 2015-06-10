@@ -49,6 +49,11 @@
 
     <!-- added -->
 
+    <gap:plugin name="com.phonegap.plugins.facebookconnect" version="0.11.0">
+        <param name="APP_ID" value="1432852267028834" />
+        <param name="APP_NAME" value="Timetorun" />
+    </gap:plugin>
+
     <!-- end of added -->
 
     <icon src="icon.png" />
