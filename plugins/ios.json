@@ -109,10 +109,10 @@
     },
     "installed_plugins": {
         "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.phonegap.helloworld"
+            "PACKAGE_NAME": "com.phonegap.timetorun"
         },
         "org.apache.cordova.geolocation": {
-            "PACKAGE_NAME": "com.phonegap.helloworld"
+            "PACKAGE_NAME": "com.phonegap.timetorun"
         },
         "com.phonegap.plugins.facebookconnect": {
             "APP_ID": "1432852267028834",

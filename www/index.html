@@ -1,12 +1,14 @@
 <!doctype html>
 <html lang="sv">
 <head>
-    <meta charset="utf-8" />
-    <meta name="format-detection" content="telephone=no" />
-    <meta name="msapplication-tap-highlight" content="no" />
+    <meta charset="utf-8"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="msapplication-tap-highlight" content="no"/>
     <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
-    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-    <link rel="stylesheet" type="text/css" href="css/ionic.app.css" />
+    <meta name="viewport"
+          content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi"/>
+    <link rel="stylesheet" type="text/css" href="css/ionic.app.css"/>
+    <link rel="stylesheet" type="text/css" href="css/ionicons.css"/>
     <title>TimeToRun</title>
 
     <script type="text/javascript" src="js/ionic.bundle.js"></script>
@@ -18,35 +20,72 @@
 </head>
 <body ng-app="ttr">
 
-    <ion-nav-view></ion-nav-view>
-    <div id="fb-root"></div>
 
-<!--
-<ion-nav-view></ion-nav-view>
-<div class="bar bar-header bar-positive">
+<div class="bar bar-header bar-light">
     <h1 class="title">{{ pageTitle }}</h1>
 </div>
 <div ng-view class="content has-header">
 
-</div>
+    <ul class="list">
+        <a class="item item-button-right" href="#">Alvesta
+            <button class="button button-positive"><i class="icon ion-arrow-right-a"></i></button>
+        </a>
+        <a class="item item-button-right" href="#">Borlänge
+            <button class="button button-positive"><i class="icon ion-arrow-right-a"></i></button>
+        </a>
+        <a class="item item-button-right" href="#">Clemensnäs
+            <button class="button button-positive"><i class="icon ion-arrow-right-a"></i></button>
+        </a>
+        <a class="item item-button-right" href="#">Dals-Ed
+            <button class="button button-positive"><i class="icon ion-arrow-right-a"></i></button>
+        </a>
+        <a class="item item-button-right" href="#">Emmaboda
+            <button class="button button-positive"><i class="icon ion-arrow-right-a"></i></button>
+        </a>
+        <a class="item item-button-right" href="#">Falkenberg
+            <button class="button button-positive"><i class="icon ion-arrow-right-a"></i></button>
+        </a>
+        <a class="item item-button-right" href="#">Göteborg
+            <button class="button button-positive"><i class="icon ion-arrow-right-a"></i></button>
+        </a>
+        <a class="item item-button-right" href="#">Halmstad
+            <button class="button button-positive"><i class="icon ion-arrow-right-a"></i></button>
+        </a>
+        <a class="item item-button-right" href="#">Immaboda
+            <button class="button button-positive"><i class="icon ion-arrow-right-a"></i></button>
+        </a>
+        <a class="item item-button-right" href="#">Jönköping
+            <button class="button button-positive"><i class="icon ion-arrow-right-a"></i></button>
+        </a>
+        <a class="item item-button-right" href="#">Kalmar
+            <button class="button button-positive"><i class="icon ion-arrow-right-a"></i></button>
+        </a>
+        <a class="item item-button-right" href="#">Landskrona
+            <button class="button button-positive"><i class="icon ion-arrow-right-a"></i></button>
+        </a>
+        <a class="item item-button-right" href="#">Malmö
+            <button class="button button-positive"><i class="icon ion-arrow-right-a"></i></button>
+        </a>
+    </ul>
 
-<div class="app">
-    <h1>PhoneGap</h1>
-    <div id="deviceready" class="blink">
-        <p class="event listening">Connecting to Device</p>
-        <p class="event received">Device is Ready</p>
+    <div class="app">
+        <h1>asd</h1>
+
+        <div id="deviceready" class="blink">
+            <p class="event listening">Connecting to Device</p>
+
+            <p class="event received">Device is Ready</p>
+        </div>
+        <div id="geolocation"></div>
+
     </div>
-    <div id="geolocation"></div>
 
 </div>
--->
 
 
-    <!--<div>
-        <div ng-view></div>
-    </div>-->
-
-    <script src="js/facebook/facebookConnectPlugin.js"></script>
+<!--<div>
+    <div ng-view></div>
+</div>-->
 
 
 </body>
